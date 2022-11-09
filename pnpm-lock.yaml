@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@akrc/nashi': ^0.0.7
+  '@akrc/nashi': 0.0.8
   typescript: ^4.8.4
   vite: ^3.2.3
 
 dependencies:
-  '@akrc/nashi': 0.0.7
+  '@akrc/nashi': 0.0.8
 
 devDependencies:
   typescript: 4.8.4
@@ -14,8 +14,8 @@ devDependencies:
 
 packages:
 
-  /@akrc/nashi/0.0.7:
-    resolution: {integrity: sha512-9a6bnlBfRGXreoNPIUymMdbZ9dwpIxpnwFPWngI8QsZq1CgArscFR5ef5rVPws2NLUDE/6/AKEOn/iR4gu+DyA==}
+  /@akrc/nashi/0.0.8:
+    resolution: {integrity: sha512-IM2AycMzmw917rQR3TJLG6KvNz0lsJBRMR0gOZoODYhrYl2oEkVrgfq3+2P/O+oOKIGiRSSh6V4RZMfiQlwNkA==}
     dev: false
 
   /@esbuild/android-arm/0.15.13:
