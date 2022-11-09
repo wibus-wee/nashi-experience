@@ -7,6 +7,7 @@ const App = () => {
   const app = nashi.create('div');
   // HomePage Component
   app.append(HomePage());
+  // FeaturesTable Component
   app.append(FeaturesTable())
   return app;
 };
