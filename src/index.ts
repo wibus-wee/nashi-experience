@@ -1,4 +1,5 @@
 import nashi from '@akrc/nashi';
+import { FeaturesTable } from './FeaturesTable';
 import { HomePage } from './HomePage';
 
 
@@ -6,6 +7,7 @@ const App = () => {
   const app = nashi.create('div');
   // HomePage Component
   app.append(HomePage());
+  app.append(FeaturesTable())
   return app;
 };
 
