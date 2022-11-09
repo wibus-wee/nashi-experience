@@ -1,6 +1,13 @@
 # 🍐 Nashi Online Experience
 Online `🍐 nashi` experience playground
 
+## Getting Started
+
+```bash
+pnpm install
+pnpm dev
+```
+
 ## Stacks
 
 - [Nashi -- The modern jQuery alternative.](https://github.com/AkaraChen/nashi)
