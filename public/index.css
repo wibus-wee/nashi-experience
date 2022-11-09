@@ -1,3 +1,28 @@
 .red {
   color: red !important;
 }
+
+button {
+  transition: all 0.2s ease-in-out !important;
+}
+
+button:hover {
+  border: 1px solid #007bff !important;
+  background-color: transparent !important;
+  color: rgb(6, 6, 6) !important;
+}
+
+/* dark */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+  }
+  button:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+  div {
+    background-color: #1a1a1a !important;
+  }
+}

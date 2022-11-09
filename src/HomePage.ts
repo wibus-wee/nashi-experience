@@ -3,7 +3,7 @@
  * @author: Wibus
  * @Date: 2022-11-09 13:39:37
  * @LastEditors: Wibus
- * @LastEditTime: 2022-11-09 19:12:07
+ * @LastEditTime: 2022-11-09 20:08:54
  * Coding With IU
  */
 import nashi from '@akrc/nashi';
@@ -35,8 +35,8 @@ export const HomePage = () => {
     .css("margin-top", "2rem")
     .css("padding", "1rem")
     .css("font-size", "1.2rem")
+    .css("border", "1px solid transparent")
     .css("font-family", "sans-serif")
-    .css("border", "none")
     .css("border-radius", "0.5rem")
     .css("background-color", btnColor.backgroundColor)
     .css("color", btnColor.color)
@@ -45,8 +45,10 @@ export const HomePage = () => {
     .on("click", () => {
       alert("Hello, Nashi!")
       btnColor = { color: "#fff", backgroundColor: "#007bff" }
-      button.css("background-color", btnColor.backgroundColor)
-      button.css("color", btnColor.color)
+      button
+        .css("background-color", btnColor.backgroundColor)
+        .css("color", btnColor.color)
+        .css("border", "1px solid #007bff")
       button.text("Clicked!")
     })
 

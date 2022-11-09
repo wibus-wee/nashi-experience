@@ -8,6 +8,13 @@ pnpm install
 pnpm dev
 ```
 
+## Tasks
+
+- [x] `text()` Method
+- [x] `xClass()` Method
+- [x] `html()` Method
+- [x] `wah` Getter
+
 ## Stacks
 
 - [Nashi -- The modern jQuery alternative.](https://github.com/AkaraChen/nashi)
