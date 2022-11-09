@@ -1,10 +1,10 @@
-# 🍐 Nashi Online Playground -- NOP
+# 🍐 Nashi Online Playground
 Online `🍐 nashi` experience playground
 
 ## Stacks
 
-- [x] [`🍐 nashi`](https://github.com/AkaraChen/nashi)
-- [x] [`TypeScript`](https://www.typescriptlang.org/)
+- [Nashi -- The modern jQuery alternative.](https://github.com/AkaraChen/nashi)
+- [TypeScript -- Typed JavaScript at Any Scale.](https://typescriptlang.org)
 
 ## Author
 
