@@ -1,4 +1,4 @@
-# 🍐 Nashi Online Playground
+# 🍐 Nashi Online Experience
 Online `🍐 nashi` experience playground
 
 ## Stacks
@@ -8,6 +8,6 @@ Online `🍐 nashi` experience playground
 
 ## Author
 
-nashi-playground © Wibus, Released under MIT. Created on Nov 9, 2022
+nashi-experience © Wibus, Released under MIT. Created on Nov 9, 2022
 
 > [Personal Website](http://iucky.cn/) · [Blog](https://blog.iucky.cn/) · GitHub [@wibus-wee](https://github.com/wibus-wee/) · Telegram [@wibus✪](https://t.me/wibus_wee)
