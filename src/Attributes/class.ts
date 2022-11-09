@@ -3,11 +3,10 @@
  * @author: Wibus
  * @Date: 2022-11-09 14:14:33
  * @LastEditors: Wibus
- * @LastEditTime: 2022-11-09 19:20:35
+ * @LastEditTime: 2022-11-09 20:17:21
  * Coding With IU
  */
 
-import nashi from '@akrc/nashi';
 import { actions } from '../Components/actions';
 import { button } from '../Components/button';
 import { desc } from '../Components/desc';
