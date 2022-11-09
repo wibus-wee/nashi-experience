@@ -8,7 +8,8 @@ import { desc } from '../Components/desc';
 
 export const text = () => {
   const Title = title('text()');
-  const Description = desc("Set & Get the text content of the element.")
+  
+  const Description = desc(`Set & Get the text content of the element.`)
   const Hidden = nashi.create("p").text("Hello, Nashi!").css("display", "none");
   const Code = res(Hidden.text())
   const Action = button("Click Me", () => {

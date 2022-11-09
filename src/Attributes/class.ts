@@ -1,13 +1,14 @@
 /*
- * @FilePath: /nashi-playground/src/Attributes/class.ts
+ * @FilePath: /nashi-experience/src/Attributes/class.ts
  * @author: Wibus
  * @Date: 2022-11-09 14:14:33
  * @LastEditors: Wibus
- * @LastEditTime: 2022-11-09 17:47:01
+ * @LastEditTime: 2022-11-09 19:20:35
  * Coding With IU
  */
 
 import nashi from '@akrc/nashi';
+import { actions } from '../Components/actions';
 import { button } from '../Components/button';
 import { desc } from '../Components/desc';
 import { input } from '../Components/input';
@@ -17,12 +18,12 @@ import { res } from '../Components/res';
 import { title } from '../Components/title';
 
 
-export const addAndRemoveAndHasClass = () => {
+export const classes = () => {
   const Title = title('xClass()');
-  const Description = desc("Try to add 'hi' into the input box.");
+  const Description = desc("Try to add 'red' into the input box.");
   const Input = input();
   const Code = res("Default")
-  const Actions = nashi.create("div").css("display", "flex").css("gap", "1rem");
+  const Actions = actions();
   const Action1 = button("Check").click(() => {
     const className = Input.prop("value");
     Code.text(`I have ${className}? \`${Code.hasClass(className)}\``);

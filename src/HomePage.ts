@@ -1,9 +1,9 @@
 /*
- * @FilePath: /nashi-playground/src/HomePage.ts
+ * @FilePath: /nashi-experience/src/HomePage.ts
  * @author: Wibus
  * @Date: 2022-11-09 13:39:37
  * @LastEditors: Wibus
- * @LastEditTime: 2022-11-09 16:29:47
+ * @LastEditTime: 2022-11-09 19:12:07
  * Coding With IU
  */
 import nashi from '@akrc/nashi';
@@ -11,7 +11,7 @@ import nashi from '@akrc/nashi';
 export const HomePage = () => {
   let btnColor = { color: "#fff", backgroundColor: "#000" };
 
-  const title = nashi.create("h1").text("🍐 Nashi + TS Playground")
+  const title = nashi.create("h1").text("🍐 Nashi + TS Experience")
   title
     .css("font-size", "2rem")
     .css("text-align", "center")
