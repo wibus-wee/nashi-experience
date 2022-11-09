@@ -3,11 +3,12 @@
  * @author: Wibus
  * @Date: 2022-11-09 13:41:11
  * @LastEditors: Wibus
- * @LastEditTime: 2022-11-09 14:00:36
+ * @LastEditTime: 2022-11-09 17:17:12
  * Coding With IU
  */
 
 import nashi from '@akrc/nashi';
+import { addAndRemoveAndHasClass } from './Attributes/class';
 import { text } from './Attributes/text';
 
 const AttributeFeature = () => {
@@ -18,7 +19,9 @@ const AttributeFeature = () => {
     .css("gap", "1rem")
     .css("margin", "1rem 0");
 
-  return grid.append(text());
+  return grid
+    .append(text())
+    .append(addAndRemoveAndHasClass())
 };
 
 export const FeaturesTable = () => {
