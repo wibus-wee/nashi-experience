@@ -14,6 +14,7 @@ pnpm dev
 - [x] `xClass()` Method
 - [x] `html()` Method
 - [x] `wah` Getter
+- [ ] `show() & hide() & toggle()` Method
 
 ## Stacks
 
